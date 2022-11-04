@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+ 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="student" class = "com.first.assigment.entity.Student">
+        <constructor-arg name = "studentRollNo" value="101"></constructor-arg>
+        <constructor-arg name = "studentName" value="Asif Shaikh"></constructor-arg>
+        <constructor-arg name = "studentClass" value="TYBSC"></constructor-arg>
+        </bean>
+        
+        <!-- <bean id="student1" class="com.first.assigment.entity.Student">
+        <property name = "studentRollNo" value="102"></property>
+        <property name = "studentName" value="Anwarul Ansari"></property>
+        <property name = "studentClass" value="PHD"></property>
+        </bean> -->
+        
+        <bean id="Collage" class="com.first.assigment.entity.Collage">
+        <property name = "collageName" value="G.R.Patil"></property>
+        <property name = "collageAdd" value="Mumbra"></property>
+        </bean>
+        
+        
+</beans>
